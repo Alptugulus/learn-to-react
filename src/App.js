@@ -13,9 +13,17 @@ function App() {
   }, []);
   return (
     <div className="wrapper">
-      {data.map((item, index) => {
-        return <CharacterItem charcater={item} setFavorite={setFavorite} favorite={favorite} key={index} ></CharacterItem>;
-      })}
+        {data.map((item, index) => {
+          return (
+            <CharacterItem
+              charcater={item}
+              setFavorite={setFavorite}
+              favorite={favorite}
+              key={index}
+            ></CharacterItem>
+            
+          );
+        })}
       <hr></hr>
       <h1>Favorilerim</h1>
       {favorite.map((e, index) => {

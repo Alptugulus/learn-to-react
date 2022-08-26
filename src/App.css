@@ -1,8 +1,8 @@
-.karakter {
+/* .karakter {
   /* border: 1px solid;
   padding: 30px;
   cursor: pointer;
-  background-color: darkgray; */
+  background-color: darkgray; 
 
     display:flex;
     justify-items: center;
@@ -30,4 +30,39 @@ img{
 }
 body{
   background-color: black;
+} */
+
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
 }
+.cartItem{
+position:relative;
+border: 1px solid;
+padding: 10px;
+}
+img{
+  position: left;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
